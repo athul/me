@@ -1,0 +1,63 @@
+{
+  "name": "gatsby-starter-portfolio-cara",
+  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+  "version": "3.0.0",
+  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "gatsby": "^2.3.25",
+    "gatsby-image": "^2.0.39",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-netlify": "^2.0.14",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-spring": "^8.0.19",
+    "styled-components": "^4.2.0",
+    "tailwind.macro": "^0.5.10",
+    "tailwindcss": "^0.7.4",
+    "typeface-cantata-one": "^0.0.72",
+    "typeface-open-sans": "^0.0.54"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "portfolio"
+  ],
+  "scripts": {
+    "dev": "gatsby develop -o",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
+    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
+    "lint:ci": "yarn lint --format junit -o results/eslint/result.xml"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+  },
+  "homepage": "https://cara.lekoarts.de"
+}
