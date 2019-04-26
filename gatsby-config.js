@@ -4,9 +4,9 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 module.exports = {
   /* General Information */
-  siteMetadata: {
+/*   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
-  },
+  }, */
   /* Plugins */
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -38,14 +38,9 @@ module.exports = {
         display: 'standalone',
         icons: [
           {
-            src: '/favicons/android-chrome-192x192.png',
+            src: 'https://avatar.tobi.sh/Athul-CA.svg?text=ACA',
             sizes: '192x192',
-            type: 'image/png',
-          },
-          {
-            src: '/favicons/android-chrome-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
+            type: 'image/svg',
           },
         ],
       },

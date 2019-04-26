@@ -9,7 +9,7 @@ module.exports = {
   siteHeadline: 'Build something new Everyday', // Headline for schema.org JSONLD
   // siteUrl: 'https://cara.lekoarts.de', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: '/logo.png', // Used for SEO and manifest
+  siteLogo: 'https://avatar.tobi.sh/Athul-CA.svg?text=ACA', // Used for SEO and manifest
   siteDescription: 'Ada Mwone...ith Kand Nokk',
   author: 'Athul-CA', // Author for schema.org JSONLD
 
