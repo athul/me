@@ -2,7 +2,7 @@
   "name": "gatsby-starter-portfolio-cara",
   "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
   "version": "3.0.0",
-  "author": "Athul-CA",
+  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
