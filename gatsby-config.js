@@ -4,9 +4,9 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 module.exports = {
   /* General Information */
-/*   siteMetadata: {
+  siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
-  }, */
+  },
   /* Plugins */
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -7,7 +7,7 @@ module.exports = {
   siteTitleAlt: 'Athul Cyrica Ajay', // Alternative Site title for SEO
   siteTitleShort: 'Athul C Ajay', // short_name for manifest
   siteHeadline: 'Build something new Everyday', // Headline for schema.org JSONLD
-  // siteUrl: 'https://cara.lekoarts.de', // Domain of your site. No trailing slash!
+  siteUrl: 'https://athulcyriac.me', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'https://avatar.tobi.sh/Athul-CA.svg?text=ACA', // Used for SEO and manifest
   siteDescription: 'Ada Mwone...ith Kand Nokk',
