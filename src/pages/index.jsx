@@ -109,8 +109,9 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I really am a Python Enthusiast who also loves to do JavaScript. I started with Machine Learnng and now
-          currently write React. I also am a lead of CEK open Source CLub and is an Organizer of Meenachil Hacks.
+          I really am a Python Enthusiast who also loves to do JavaScript. I started with Machine Learning and now
+          currently write React. I also am a lead of CEK Open Source Club and is an Organizer of Meenachil Hacks, 
+          currently pursing my Bachelors Degree from College of Engineering Kidangoor.
         </AboutDesc>
       </About>
       <Contact offset={4}>
