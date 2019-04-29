@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/84c5c5f3-00e2-4fec-997c-ef5ce6b7b528/deploy-status)](https://app.netlify.com/sites/acame/deploys)
 www.athulcyriac.me
 
 Will add a blog soon!!
