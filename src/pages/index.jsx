@@ -121,6 +121,7 @@ const Index = () => (
             Say <a href="mailto:athul8720@gmail.com">Hi</a> or find me on other platforms:{' '}
             <a href="https://twitter.com/athulcajay">Twitter</a>{' '} , 
             <a href="https://github.com/Athul-CA">GitHub</a>{' '}
+            <a class="twitter-timeline" href="https://twitter.com/athulcajay?ref_src=twsrc%5Etfw">Tweets by athulcajay</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </ContactText>
         </Inner>
         <Footer>
