@@ -84,20 +84,20 @@ const Index = () => (
           >
             The Website for Meenachil Hacks
           </ProjectCard>
-          {/* <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+          <ProjectCard
+            title="Hackathon Sponsor Searches"
+            link="https://github.com/Athul-CA/hackathon-sponsor-searches"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            Some Sponsors for any Hackathon
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Wakatime Language Metrics"
+            link="https://github.com/Athul-CA/wakatime-metrics"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
-          </ProjectCard> */}
+            Wakatime Language Metrics as a Bar Chart. Made with Python
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
