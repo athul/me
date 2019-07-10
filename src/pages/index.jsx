@@ -64,7 +64,7 @@ const Index = () => (
           Hello, <br /> I'm Athul Cyriac Ajay.
         </BigTitle>
         <Subtitle>
-          I'm just a regular coder who loves Python and Js. A GitHub Campus Expert 🚩. CS Undergrad at CEK.
+		I'm just a regular coder who loves Python and Js. A GitHub Campus Expert 🚩. CS Undergrad at CEK. My <a href="https://blog.athulcyriac.me" >Blog</a>.
         </Subtitle>
       </Hero>
       <Projects offset={1}>
