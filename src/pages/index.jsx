@@ -108,9 +108,7 @@ const Index = () => (
           <AboutSub>Python Fan, Js Lover, Open Source Contributor, Future Engineer.</AboutSub>
         </AboutHero>
         <AboutDesc>
-          I really am a Python Enthusiast who also loves to do JavaScript. I started with Machine Learning and now
-          currently write React. I am currently pursing my Bachelors Degree in Computer Science and Engineering from
-          College of Engineering Kidangoor.
+I Love to Code. I could do it all day with Coffee and Music. I am efficient in writing Python for Machine Learning Problems, Backend Development and Algorithms.I also love to write javaScript for Both Frontend and Backend but Python is my Drogon. I also Program C, C++ and Shell Scripting. I am currently pursing my Bachelors Degree in Computer Science and Engineering from College of Engineering Kidangoor.
           <br />I am a Lead at CEK Open Source Club <br /> I am one of the Founding Members of Meenachil Hacks
         </AboutDesc>
       </About>

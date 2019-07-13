@@ -29,8 +29,8 @@ const Hero = ({ children, offset }) => (
         <SVG icon="circle" width={6} fill={colors['grey-darkest']} left="75%" top="10%" />
         <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
       </UpDownWide>
-      <SVG icon="circle" hiddenMobile width={24} fill={colors['grey-darker']} left="5%" top="70%" />
-      <SVG icon="circle" width={6} fill={colors['grey-darkest']} left="4%" top="20%" />
+      <SVG icon="circle" hiddenMobile width={24} fill={colors['grey-darker']} left="25%" top="70%" />
+      <SVG icon="circle" width={6} fill={colors['grey-darkest']} left="24%" top="20%" />
       <SVG icon="circle" width={12} fill={colors['grey-darkest']} left="50%" top="60%" />
       <SVG icon="upDown" width={8} fill={colors['grey-darkest']} left="95%" top="90%" />
       <SVG icon="upDown" hiddenMobile width={24} fill={colors['grey-darker']} left="40%" top="80%" />
