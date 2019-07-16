@@ -64,7 +64,8 @@ const Index = () => (
           Hello, <br /> I'm Athul Cyriac Ajay.
         </BigTitle>
         <Subtitle>
-          I'm just a regular coder who loves Python and Js. A GitHub Campus Expert 🚩. CS Undergrad at CEK.
+          I'm just a regular coder who loves Python and Js. A GitHub Campus Expert 🚩. CS Undergrad at CEK. My{' '}
+          <a href="https://blog.athulcyriac.me">Blog</a>.
         </Subtitle>
       </Hero>
       <Projects offset={1}>
@@ -104,14 +105,11 @@ const Index = () => (
         <Title>About</Title>
         <AboutHero>
           <Avatar src="https://avatars0.githubusercontent.com/u/40897573?s=460&v=4" alt="Athul Criac Ajay" />
-          <AboutSub>
-            "All Power is within You. You can do anything and Everything. Believe in That!." Swami Vivekananda
-          </AboutSub>
+          <AboutSub>Python Fan, Js Lover, Open Source Contributor, Future Engineer.</AboutSub>
         </AboutHero>
         <AboutDesc>
-          I really am a Python Enthusiast who also loves to do JavaScript. I started with Machine Learning and now
-          currently write React. I also am a lead of CEK Open Source Club and is an Organizer of Meenachil Hacks, 
-          currently pursing my Bachelors Degree from College of Engineering Kidangoor.
+I Love to Code. I could do it all day with Coffee and Music. I am efficient in writing Python for Machine Learning Problems, Backend Development and Algorithms.I also love to write javaScript for Both Frontend and Backend but Python is my Drogon. I also Program C, C++ and Shell Scripting. I am currently pursing my Bachelors Degree in Computer Science and Engineering from College of Engineering Kidangoor.
+          <br />I am a Lead at CEK Open Source Club <br /> I am one of the Founding Members of Meenachil Hacks
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -119,9 +117,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:athul8720@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://twitter.com/athulcajay">Twitter</a>{' '} , 
-            <a href="https://github.com/Athul-CA">GitHub</a>{' '}
-            <a class="twitter-timeline" href="https://twitter.com/athulcajay?ref_src=twsrc%5Etfw">Tweets by athulcajay</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/athulcajay">Twitter</a> ,<a href="https://github.com/Athul-CA">GitHub</a>{' '}
           </ContactText>
         </Inner>
         <Footer>
