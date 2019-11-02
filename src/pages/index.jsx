@@ -87,14 +87,14 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Hackathon Sponsor Searches"
-            link="https://github.com/Athul-CA/hackathon-sponsor-searches"
+            link="https://github.com/athul/hackathon-sponsor-searches"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             Some Sponsors for any Hackathon
           </ProjectCard>
           <ProjectCard
             title="Wakatime Language Metrics"
-            link="https://github.com/Athul-CA/wakatime-metrics"
+            link="https://github.com/athul/wakatime-metrics"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             Wakatime Language Metrics as a Bar Chart. Made with Python
@@ -117,7 +117,7 @@ I Love to Code. I could do it all day with Coffee and Music. I am efficient in w
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:athul8720@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://twitter.com/athulcajay">Twitter</a> ,<a href="https://github.com/Athul-CA">GitHub</a>{' '}
+            <a href="https://twitter.com/athulcajay">Twitter</a> ,<a href="https://github.com/athul">GitHub</a>{' '}
           </ContactText>
         </Inner>
         <Footer>
