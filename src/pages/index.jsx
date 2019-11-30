@@ -65,7 +65,7 @@ const Index = () => (
         </BigTitle>
         <Subtitle>
           I'm just a regular coder who loves Python and Js. A GitHub Campus Expert 🚩. CS Undergrad at CEK. My{' '}
-          <a href="https://blog.athulcyriac.me">Blog</a>.
+          <a href="https://blog.athulcyriac.co">Blog</a>.
         </Subtitle>
       </Hero>
       <Projects offset={1}>
@@ -99,6 +99,13 @@ const Index = () => (
           >
             Wakatime Language Metrics as a Bar Chart. Made with Python
           </ProjectCard>
+         <ProjectCard
+           title="College of Engineering Website"
+           link="ce-kgr.org"
+           bg="linear-gradient(to right, #009fff, #ec2f4b)"
+           >
+           Maintainer and Infra Manager for CE Kidangoor's Website in Gatsby
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
@@ -121,7 +128,7 @@ I Love to Code. I could do it all day with Coffee and Music. I am efficient in w
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Athul Cyriac Ajay <a href="https://github.com/Athul-CA">Github Repository</a>.
+          &copy; 2019 by Athul Cyriac Ajay <a href="https://github.com/athul">Github Repository</a>.
         </Footer>
       </Contact>
     </Parallax>
