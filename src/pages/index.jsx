@@ -100,11 +100,18 @@ const Index = () => (
             Wakatime Language Metrics as a Bar Chart. Made with Python
           </ProjectCard>
          <ProjectCard
-           title="College of Engineering Website"
+           title="College of Engineering Kidangoor Website"
            link="ce-kgr.org"
            bg="linear-gradient(to right, #009fff, #ec2f4b)"
            >
            Maintainer and Infra Manager for CE Kidangoor's Website in Gatsby
+          </ProjectCard>
+         <ProjectCard
+           title="PP-Suku"
+           link="https://github.com/athul/PP-Suku"
+           bg="linear-gradient(to right, #fc466b, #3f5efb)"
+           >
+           A Portfolio Generator in Python with a (WIP)UI in React and a GraphQL API
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
