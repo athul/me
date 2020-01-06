@@ -149,7 +149,7 @@ const Index = () => (
             alt="Athul Criac Ajay"
           />
           <AboutSub>
-            Python Fan, Go Guy ,"React"-or, Open Source Contributor &
+            Python Fan, Gopher ,"React"-or, Open Source Contributor &
             Maintainer, Future Engineer.
           </AboutSub>
         </AboutHero>
@@ -175,7 +175,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Athul Cyriac Ajay{" "}
+          &copy; 2020 by Athul Cyriac Ajay{" "}
           <a href="https://github.com/athul">GitHub Repository</a>.
         </Footer>
       </Contact>
