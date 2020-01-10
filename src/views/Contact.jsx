@@ -52,7 +52,7 @@ const Contact = ({ children, offset }) => (
     <Divider speed={0.1} offset={offset}>
       <UpDown>
         <SVG
-          icon="upDown"
+          icon="py"
           hiddenMobile
           width={8}
           fill={colors.orange}
@@ -60,7 +60,7 @@ const Contact = ({ children, offset }) => (
           top="20%"
         />
         <SVG
-          icon="triangle"
+          icon="kali"
           width={8}
           stroke={colors["grey-darkest"]}
           left="25%"
@@ -69,15 +69,15 @@ const Contact = ({ children, offset }) => (
       </UpDown>
       <UpDownWide>
         <SVG
-          icon="triangle"
+          icon="kali"
           width={12}
-          stroke={colors.white}
+          stroke={colors.indigo}
           left="95%"
           top="50%"
         />
-        <SVG icon="circle" width={6} fill={colors.white} left="85%" top="15%" />
+        <SVG icon="react" width={6} fill={colors.white} left="85%" top="15%" />
         <SVG
-          icon="upDown"
+          icon="git"
           hiddenMobile
           width={8}
           fill={colors["grey-darkest"]}
@@ -85,10 +85,10 @@ const Contact = ({ children, offset }) => (
           top="10%"
         />
       </UpDownWide>
-      <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
-      <SVG icon="circle" width={12} fill={colors.yellow} left="70%" top="60%" />
-      <SVG icon="box" width={12} fill={colors.red} left="20%" top="30%" />
-      <SVG icon="hexa" width={8} stroke={colors.green} left="80%" top="70%" />
+      <SVG icon="git" width={6} fill={colors.white} left="4%" top="20%" />
+      <SVG icon="py" width={12} fill={colors.yellow} left="70%" top="60%" />
+      <SVG icon="go" width={12} fill={colors.red} left="20%" top="30%" />
+      <SVG icon="react" width={8} stroke={colors.green} left="80%" top="70%" />
     </Divider>
   </>
 );
