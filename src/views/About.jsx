@@ -94,7 +94,6 @@ const About = ({ children, offset }) => (
         top="30%"
       />
       <SVG icon="js" width={8} stroke={colors.red} left="80%" top="70%" />
-      <SVG icon="hexa" width={8} stroke={colors.red} left="80%" top="70%" />
     </Divider>
     <Content speed={0.4} offset={offset}>
       <Inner>{children}</Inner>
