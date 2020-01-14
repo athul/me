@@ -50,8 +50,9 @@ const Hero = ({ children, offset }) => (
           left="30%"
           top="65%"
         />
-        <SVG icon="cross" width={8} stroke={colors.grey} left="28%" top="15%" />
-        <SVG icon="fsc" width={15} fill={colors.red} left="2%" top="80%" />
+        <SVG icon="js" width={8} stroke={colors.grey} left="28%" top="15%" />
+        <SVG icon="fsc" width={30} fill={colors.red} left="2%" top="80%" />
+
         <SVG
           icon="circle"
           width={6}
