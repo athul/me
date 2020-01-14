@@ -8,7 +8,6 @@ import {
   UpDown,
   UpDownWide,
   waveAnimation,
-  rotateAnimation
 } from "../styles/animations";
 import { colors } from "../../tailwind";
 import SVG from "../components/SVG";
