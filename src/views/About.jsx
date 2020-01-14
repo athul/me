@@ -77,7 +77,6 @@ const About = ({ children, offset }) => (
         />
       </UpDownWide>
       <SVG icon="py" width={6} fill={colors.white} left="4%" top="20%" />
-      <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
       <SVG
         icon="circle"
         width={12}
@@ -87,7 +86,6 @@ const About = ({ children, offset }) => (
       />
       <SVG icon="box" width={6} fill={colors.orange} left="10%" top="10%" />
       <SVG icon="kali" width={12} fill={colors.indigo} left="20%" top="30%" />
-      <SVG icon="box" width={12} fill={colors.indigo} left="20%" top="30%" />
       <SVG
         icon="fsc"
         width={50}
