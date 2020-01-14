@@ -77,9 +77,6 @@ const About = ({ children, offset }) => (
         />
       </UpDownWide>
       <SVG icon="py" width={6} fill={colors.white} left="4%" top="20%" />
-      <SVG
-        icon="py"
-
       <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
       <SVG
         icon="circle"
@@ -99,7 +96,6 @@ const About = ({ children, offset }) => (
         top="30%"
       />
       <SVG icon="js" width={8} stroke={colors.red} left="80%" top="70%" />
-
       <SVG icon="hexa" width={8} stroke={colors.red} left="80%" top="70%" />
     </Divider>
     <Content speed={0.4} offset={offset}>
