@@ -58,6 +58,7 @@ const Contact = ({ children, offset }) => (
       <UpDown>
         <SVG
           icon="git"
+
           hiddenMobile
           width={8}
           fill={colors.orange}
@@ -74,9 +75,9 @@ const Contact = ({ children, offset }) => (
       </UpDown>
       <UpDownWide>
         <SVG
-          icon="kali"
+          icon="triangle"
           width={12}
-          stroke={colors.indigo}
+          stroke={colors.white}
           left="95%"
           top="50%"
         />
@@ -94,6 +95,7 @@ const Contact = ({ children, offset }) => (
       <SVG icon="py" width={8} fill={colors.yellow} right="70%" top="50%" />
       <SVG icon="go" width={13} fill={colors.red} left="90%" top="30%" />
       <SVG icon="git" width={8} stroke={colors.green} left="80%" top="70%" />
+
     </Divider>
   </>
 );

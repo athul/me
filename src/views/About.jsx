@@ -59,6 +59,13 @@ const About = ({ children, offset }) => (
           top="80%"
         />
         <SVG icon="go" width={12} stroke={colors.white} left="95%" top="50%" />
+        <SVG
+          icon="triangle"
+          width={12}
+          stroke={colors.white}
+          left="95%"
+          top="50%"
+        />
         <SVG icon="circle" width={6} fill={colors.white} left="85%" top="15%" />
         <SVG
           icon="upDown"
@@ -72,6 +79,10 @@ const About = ({ children, offset }) => (
       <SVG icon="py" width={6} fill={colors.white} left="4%" top="20%" />
       <SVG
         icon="py"
+
+      <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
+      <SVG
+        icon="circle"
         width={12}
         fill={colors["grey-darkest"]}
         left="70%"
@@ -79,6 +90,7 @@ const About = ({ children, offset }) => (
       />
       <SVG icon="box" width={6} fill={colors.orange} left="10%" top="10%" />
       <SVG icon="kali" width={12} fill={colors.indigo} left="20%" top="30%" />
+      <SVG icon="box" width={12} fill={colors.indigo} left="20%" top="30%" />
       <SVG
         icon="fsc"
         width={50}
@@ -87,6 +99,8 @@ const About = ({ children, offset }) => (
         top="30%"
       />
       <SVG icon="js" width={8} stroke={colors.red} left="80%" top="70%" />
+
+      <SVG icon="hexa" width={8} stroke={colors.red} left="80%" top="70%" />
     </Divider>
     <Content speed={0.4} offset={offset}>
       <Inner>{children}</Inner>

@@ -16,15 +16,8 @@ const Hero = ({ children, offset }) => (
   <>
     <Divider speed={0.2} offset={offset}>
       <UpDown>
-        <SVG
-          icon="triangle"
-          hiddenMobile
-          fill={colors.red}
-          width={48}
-          left="10%"
-          top="20%"
-        />
-        <SVG icon="hexa" width={8} left="60%" top="70%" />
+        <SVG icon="triangle" hiddenMobile width={48} left="10%" top="20%" />
+        <SVG icon="hexa" width={48} left="60%" top="70%" />
         <SVG icon="box" width={6} left="60%" top="15%" />
       </UpDown>
       <UpDownWide>
@@ -59,6 +52,7 @@ const Hero = ({ children, offset }) => (
         />
         <SVG icon="js" width={8} stroke={colors.grey} left="28%" top="15%" />
         <SVG icon="fsc" width={30} fill={colors.red} left="2%" top="80%" />
+
         <SVG
           icon="circle"
           width={6}
