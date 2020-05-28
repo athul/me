@@ -61,12 +61,14 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm Athul Cyriac Ajay.
+          Hello 👋, <br /> I'm Athul Cyriac Ajay.
         </BigTitle>
         <Subtitle>
-          I'm just a regular coder who loves Python and Js. A GitHub Campus
-          Expert 🚩. CS Undergrad at CEK. My{" "}
-          <a href="https://blog.athulcyriac.co">Blog</a>.
+          I'm just a guy who loves to code 😁. I'm a <em style={{color:`palegreen`}}>GitHub Campus Expert</em> 🚩 and an <em style={{color:`royalblue`}}>Auth0 Ambassador</em>. Big fan of the ⚡️ emoji<br/><br/>
+          Checkout my
+          <a href="https://blog.athulcyriac.co"> Blog</a>
+          <br/><br/> Currently I'm a CS Undergrad at <b style={{color:`yellow`}}>College of Engineering Kidangoor. </b>
+          
         </Subtitle>
       </Hero>
       <Projects offset={1}>
@@ -77,45 +79,28 @@ const Index = () => (
             link="https://github.com/athul/Shelby"
             bg="linear-gradient(to right, #fc00ff, #00dbde)"
           >
-            Shelby is a fast and Minimal Shell Prompt in Go.(80+⭐️)
+            Shelby is a fast and Minimal Shell Prompt in Go.(110+⭐️)
           </ProjectCard>
           <ProjectCard
-            title="Statusoli✉︎"
-            link="https://github.com/athul/statusoli"
+            title="Archie"
+            link="https://github.com/athul/archie"
             bg="linear-gradient(to right, #ff4b1f, #1fddff)"
           >
-            Get Telegram notification when someone Stars,open an Issue or Pull
-            Request or add changes to a Specific Repo.
-            <br />
-            Uses GitHub Actions(4⭐️)
-          </ProjectCard>
-          <ProjectCard
-            title="Project Libra📚"
-            link="https://github.com/cek-open-source-club/Project-Libra"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-          >
-            College Library Management System in Django(23⭐️)
-          </ProjectCard>
-          <ProjectCard
-            title="Meenachil Hacks Website🌐"
-            link="https://meenhacks.github.io"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            The Website for Meenachil Hacks
+            Archie is a Minimal theme for Hugo(25+⭐️)
           </ProjectCard>
           <ProjectCard
             title="Hackathon Sponsor Searches🖥"
             link="https://github.com/athul/hackathon-sponsor-searches"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Some Sponsors for any Hackathon(25⭐️)
+            Some Sponsors for any Hackathon(30⭐️)
           </ProjectCard>
           <ProjectCard
             title="Wakatime Language Metrics👨‍💻"
             link="https://github.com/athul/wakatime-metrics"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            Wakatime Language Metrics as a Bar Chart. Made with Python(5⭐️)
+            Wakatime Language Metrics as a Bar Chart. Made with Python(20⭐️)
           </ProjectCard>
           <ProjectCard
             title="College of Engineering Kidangoor Website🌐"
@@ -125,19 +110,18 @@ const Index = () => (
             Maintainer and Infra Manager for CE Kidangoor's Website in Gatsby
           </ProjectCard>
           <ProjectCard
-            title="PP-Suku✨"
+            title="Pwcli✨"
             link="https://github.com/athul/PP-Suku"
-            bg="linear-gradient(to right, #fc466b, #3f5efb)"
+            bg="linear-gradient(to right, #59c173, #a17fe0, #5d26c1);"
           >
-            A Portfolio Generator in Python with a (WIP)UI in React and a
-            GraphQL API (13⭐️)
+            A CLI for Postwoman in Go(22⭐️)
           </ProjectCard>
           <ProjectCard
             title="Blog-dayDreams++📝"
             link="https://blog.athulcyriac.co"
-            bg="linear-gradient(to top, #16bffd, #cb3066)"
+            bg="linear-gradient(to right, #fc5c7d, #6a82fb);"
           >
-            Personal Blog, dayDreams++. I usually blog about Code and Life(6⭐️)
+            Personal Blog, dayDreams++. I usually blog about Code and Life(10⭐️)
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -149,20 +133,19 @@ const Index = () => (
             alt="Athul Criac Ajay"
           />
           <AboutSub>
-            Python Fan, Gopher ,"React"-or, Open Source Contributor &
+            Pythonista, Gopher,React-dev, Open Source Contributor &
             Maintainer, Future Engineer.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
           I Love to Code. I could do it all day with Coffee and Music. I am
-          efficient in writing Python for Machine Learning Problems, Backend
-          Development and Algorithms.I also love to write React for Frontend . I
+          efficient in writing Python for Automation, Backend
+          Development and Algorithms. I also love to write React and Vue for Frontend . I
           also use Go for different Programming Problems. This Includes Backends
           and Systems but Python is my Drogon.I also Program C, C++ and Shell
-          Scripting. I am currently pursing my Bachelors Degree in Computer
-          Science and Engineering from College of Engineering Kidangoor.
+          Scripting. 
           <br />I am a Lead at CEK Open Source Club <br /> I am one of the
-          Founding Members of Meenachil Hacks
+          Founding Members of Meenachil Hacks. Previously Interned at Rorodata/Algoshelf.<br/> Co created <a href="https://vett.space">vett.space</a>
         </AboutDesc>
       </About>
       <Contact offset={4}>

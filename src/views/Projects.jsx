@@ -10,7 +10,7 @@ import SVG from "../components/SVG";
 const Projects = ({ children, offset }) => (
   <>
     <DividerMiddle
-      bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
+      bg="linear-gradient(to right, #009fff, #ec2f4b);"
       speed={-0.2}
       offset={`${offset}.1`}
       factor={2}
@@ -21,7 +21,7 @@ const Projects = ({ children, offset }) => (
     <Divider speed={0.1} offset={offset} factor={2}>
       <UpDown>
         <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
-        <SVG icon="upDown" width={8} fill={colors.teal} left="70%" top="20%" />
+        <SVG icon="go" width={8} fill={colors.teal} left="70%" top="20%" />
         <SVG
           icon="triangle"
           width={8}
@@ -30,7 +30,7 @@ const Projects = ({ children, offset }) => (
           top="5%"
         />
         <SVG
-          icon="circle"
+          icon="ironman"
           hiddenMobile
           width={24}
           fill={colors.white}
@@ -40,7 +40,7 @@ const Projects = ({ children, offset }) => (
       </UpDown>
       <UpDownWide>
         <SVG
-          icon="arrowUp"
+          icon="cap"
           hiddenMobile
           width={16}
           fill={colors.green}
@@ -55,7 +55,7 @@ const Projects = ({ children, offset }) => (
           top="30%"
         />
         <SVG
-          icon="circle"
+          icon="ironman"
           width={16}
           fill={colors.yellow}
           left="70%"
@@ -69,9 +69,9 @@ const Projects = ({ children, offset }) => (
           left="18%"
           top="75%"
         />
-        <SVG icon="circle" width={6} fill={colors.white} left="75%" top="10%" />
+        <SVG icon="ironman" width={6} fill={colors.white} left="75%" top="10%" />
         <SVG
-          icon="upDown"
+          icon="go"
           hiddenMobile
           width={8}
           fill={colors.green}
@@ -79,12 +79,12 @@ const Projects = ({ children, offset }) => (
           top="10%"
         />
       </UpDownWide>
-      <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
-      <SVG icon="circle" width={12} fill={colors.pink} left="80%" top="60%" />
+      <SVG icon="ironman" width={6} fill={colors.white} left="4%" top="20%" />
+      <SVG icon="ironman" width={12} fill={colors.pink} left="80%" top="60%" />
       <SVG icon="box" width={6} fill={colors.orange} left="10%" top="10%" />
       <SVG icon="box" width={12} fill={colors.yellow} left="29%" top="26%" />
-      <SVG icon="hexa" width={16} stroke={colors.red} left="75%" top="30%" />
-      <SVG icon="hexa" width={8} stroke={colors.yellow} left="80%" top="70%" />
+      <SVG icon="go" width={16} stroke={colors.red} left="75%" top="30%" />
+      <SVG icon="go" width={8} stroke={colors.yellow} left="80%" top="70%" />
     </Divider>
   </>
 );

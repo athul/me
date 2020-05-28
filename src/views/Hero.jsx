@@ -17,14 +17,14 @@ const Hero = ({ children, offset }) => (
     <Divider speed={0.2} offset={offset}>
       <UpDown>
         <SVG icon="triangle" hiddenMobile width={48} left="10%" top="20%" />
-        <SVG icon="hexa" width={48} left="60%" top="70%" />
+        <SVG icon="go" width={8} left="66%" top="70%" />
         <SVG icon="box" width={6} left="60%" top="15%" />
       </UpDown>
       <UpDownWide>
         <SVG
-          icon="arrowUp"
+          icon="cap"
           hiddenMobile
-          width={16}
+          width={42}
           fill={colors.red}
           left="80%"
           top="10%"
@@ -37,7 +37,7 @@ const Hero = ({ children, offset }) => (
           top="50%"
         />
         <SVG
-          icon="circle"
+          icon="ironman"
           width={16}
           fill={colors["grey-darker"]}
           left="70%"
@@ -51,26 +51,26 @@ const Hero = ({ children, offset }) => (
           top="65%"
         />
         <SVG icon="js" width={8} stroke={colors.grey} left="28%" top="15%" />
-        <SVG icon="fsc" width={30} fill={colors.red} left="2%" top="80%" />
+        <SVG icon="fsc" width={30} fill={colors["red-darkest"]} left="2%" top="80%" />
 
         <SVG
-          icon="circle"
+          icon="ironman"
           width={6}
           fill={colors["grey-darkest"]}
           right="10%"
           top="40%"
         />
         <SVG
-          icon="upDown"
+          icon="telescope"
           hiddenMobile
-          width={10}
+          width={24}
           fill={colors.green}
           left="5%"
           top="1%"
         />
       </UpDownWide>
       <SVG
-        icon="circle"
+        icon="ironman"
         hiddenMobile
         width={24}
         fill={colors["grey-darker"]}
@@ -78,24 +78,24 @@ const Hero = ({ children, offset }) => (
         top="70%"
       />
       <SVG
-        icon="circle"
+        icon="ironman"
         width={6}
         fill={colors["grey-darkest"]}
         left="24%"
         top="20%"
       />
-      <SVG icon="circle" width={30} fill={colors.orange} left="70%" top="60%" />
+      <SVG icon="ironman" width={30} fill={colors.orange} left="70%" top="60%" />
       <SVG
-        icon="upDown"
-        width={8}
+        icon="go"
+        width={18}
         fill={colors["grey-darkest"]}
         left="95%"
         top="90%"
       />
       <SVG
-        icon="upDown"
+        icon="telescope"
         hiddenMobile
-        width={24}
+        width={25}
         fill={colors["grey-darker"]}
         left="40%"
         top="80%"
@@ -107,7 +107,7 @@ const Hero = ({ children, offset }) => (
         left="25%"
         top="5%"
       />
-      <SVG icon="circle" width={64} fill={colors.green} left="95%" top="5%" />
+      <SVG icon="ironman" width={64} fill={colors.green} left="95%" top="5%" />
       <SVG
         icon="box"
         hiddenMobile
@@ -118,13 +118,13 @@ const Hero = ({ children, offset }) => (
       />
       <SVG icon="box" width={10} fill={colors.pink} left="10%" top="10%" />
       <SVG icon="box" width={12} fill={colors.yellow} left="40%" top="30%" />
-      <SVG icon="hexa" width={16} stroke={colors.red} left="10%" top="50%" />
+      <SVG icon="telescope" width={16} stroke={colors.red} left="10%" top="50%" />
       <SVG
-        icon="hexa"
+        icon="go"
         width={8}
         stroke={colors["grey-darker"]}
-        left="80%"
-        top="70%"
+        left="89%"
+        top="50%"
       />
     </Divider>
     <Content speed={0.4} offset={offset}>

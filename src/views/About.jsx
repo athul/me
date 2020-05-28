@@ -10,7 +10,7 @@ import SVG from "../components/SVG";
 const About = ({ children, offset }) => (
   <>
     <Divider
-      bg="#23262b"
+      bg="linear-gradient(to right, #ad5389, #3c1053);"
       clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
       speed={0.2}
       offset={offset}
@@ -26,7 +26,7 @@ const About = ({ children, offset }) => (
           top="75%"
         />
         <SVG
-          icon="upDown"
+          icon="go"
           hiddenMobile
           width={8}
           fill={colors["grey-darkest"]}
@@ -41,24 +41,24 @@ const About = ({ children, offset }) => (
           top="5%"
         />
         <SVG
-          icon="upDown"
+          icon="go"
           hiddenMobile
-          width={24}
+          width={10}
           fill={colors.orange}
-          left="80%"
+          left="30%"
           top="80%"
         />
       </UpDown>
       <UpDownWide>
         <SVG
-          icon="arrowUp"
+          icon="cap"
           hiddenMobile
           width={16}
           fill={colors.purple}
           left="5%"
           top="80%"
         />
-        <SVG icon="go" width={12} stroke={colors.white} left="95%" top="50%" />
+        <SVG icon="go" width={12} left="92%" top="70%" />
         <SVG
           icon="triangle"
           width={12}
@@ -66,9 +66,9 @@ const About = ({ children, offset }) => (
           left="95%"
           top="50%"
         />
-        <SVG icon="circle" width={6} fill={colors.white} left="85%" top="15%" />
+        <SVG icon="ironman" width={6} fill={colors.white} left="85%" top="15%" />
         <SVG
-          icon="upDown"
+          icon="go"
           hiddenMobile
           width={8}
           fill={colors["grey-darkest"]}
@@ -78,7 +78,7 @@ const About = ({ children, offset }) => (
       </UpDownWide>
       <SVG icon="py" width={6} fill={colors.white} left="4%" top="20%" />
       <SVG
-        icon="circle"
+        icon="ironman"
         width={12}
         fill={colors["grey-darkest"]}
         left="70%"
@@ -86,13 +86,6 @@ const About = ({ children, offset }) => (
       />
       <SVG icon="box" width={6} fill={colors.orange} left="10%" top="10%" />
       <SVG icon="kali" width={12} fill={colors.indigo} left="20%" top="30%" />
-      <SVG
-        icon="fsc"
-        width={50}
-        fill={colors["grey-darkest"]}
-        left="20%"
-        top="30%"
-      />
       <SVG icon="js" width={8} stroke={colors.red} left="80%" top="70%" />
     </Divider>
     <Content speed={0.4} offset={offset}>
