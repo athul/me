@@ -7,19 +7,15 @@ module.exports = {
   siteTitleAlt: 'Athul Cyrica Ajay', // Alternative Site title for SEO
   siteTitleShort: 'Athul C Ajay', // short_name for manifest
   siteHeadline: 'Build something new Everyday', // Headline for schema.org JSONLD
-  siteUrl: 'https://athulcyriac.me', // Domain of your site. No trailing slash!
+  siteUrl: 'https://athulcyriac.co', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: 'https://avatar.tobi.sh/Athul-CA.svg?text=ACA', // Used for SEO and manifest
-  siteDescription: 'Ada Mwone...ith Kand Nokk',
-  author: 'Athul-CA', // Author for schema.org JSONLD
+  siteLogo: 'https://avatars2.githubusercontent.com/u/40897573?v=2', // Used for SEO and manifest
+  siteDescription: 'Ada Mwone..ith Kand Nokk, This is Athul Cyriac\'s personal website. ',
+  author: 'Athul Cyriac Ajay', // Author for schema.org JSONLD
 
-  // siteFBAppID: '123456789', // Facebook App ID - Optional
-  /*   userTwitter: '@cara', // Twitter Username
-  ogSiteName: 'cara', // Facebook Site Name
-  ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: 'UA-47519312-5', */
+  userTwitter: '@athulcajay', // Twitter Username
 
   // Manifest and Progress color
-  themeColor: tailwind.colors.orange,
-  backgroundColor: tailwind.colors.blue,
+  themeColor: tailwind.colors["green-lighter"],
+  backgroundColor: tailwind.colors["yellow-lighter"],
 }
