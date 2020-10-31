@@ -34,13 +34,6 @@ const About = ({ children, offset }) => (
           top="20%"
         />
         <SVG
-          icon="triangle"
-          width={8}
-          stroke={colors["grey-darkest"]}
-          left="25%"
-          top="5%"
-        />
-        <SVG
           icon="go"
           hiddenMobile
           width={10}
@@ -60,13 +53,12 @@ const About = ({ children, offset }) => (
         />
         <SVG icon="go" width={12} left="92%" top="70%" />
         <SVG
-          icon="triangle"
-          width={12}
-          stroke={colors.white}
-          left="95%"
-          top="50%"
+          icon="ironman"
+          width={6}
+          fill={colors.white}
+          left="85%"
+          top="15%"
         />
-        <SVG icon="ironman" width={6} fill={colors.white} left="85%" top="15%" />
         <SVG
           icon="go"
           hiddenMobile
@@ -86,7 +78,6 @@ const About = ({ children, offset }) => (
       />
       <SVG icon="box" width={6} fill={colors.orange} left="10%" top="10%" />
       <SVG icon="kali" width={12} fill={colors.indigo} left="20%" top="30%" />
-      <SVG icon="js" width={8} stroke={colors.red} left="80%" top="70%" />
     </Divider>
     <Content speed={0.4} offset={offset}>
       <Inner>{children}</Inner>

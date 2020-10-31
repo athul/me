@@ -23,13 +23,6 @@ const Projects = ({ children, offset }) => (
         <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
         <SVG icon="go" width={8} fill={colors.teal} left="70%" top="20%" />
         <SVG
-          icon="triangle"
-          width={8}
-          stroke={colors.orange}
-          left="25%"
-          top="5%"
-        />
-        <SVG
           icon="ironman"
           hiddenMobile
           width={24}
@@ -48,13 +41,6 @@ const Projects = ({ children, offset }) => (
           top="90%"
         />
         <SVG
-          icon="triangle"
-          width={12}
-          stroke={colors.white}
-          left="90%"
-          top="30%"
-        />
-        <SVG
           icon="ironman"
           width={16}
           fill={colors.yellow}
@@ -62,14 +48,12 @@ const Projects = ({ children, offset }) => (
           top="90%"
         />
         <SVG
-          icon="triangle"
-          hiddenMobile
-          width={16}
-          stroke={colors.teal}
-          left="18%"
-          top="75%"
+          icon="ironman"
+          width={6}
+          fill={colors.white}
+          left="75%"
+          top="10%"
         />
-        <SVG icon="ironman" width={6} fill={colors.white} left="75%" top="10%" />
         <SVG
           icon="go"
           hiddenMobile

@@ -16,7 +16,6 @@ const Hero = ({ children, offset }) => (
   <>
     <Divider speed={0.2} offset={offset}>
       <UpDown>
-        <SVG icon="triangle" hiddenMobile width={48} left="10%" top="20%" />
         <SVG icon="go" width={8} left="66%" top="70%" />
         <SVG icon="box" width={6} left="60%" top="15%" />
       </UpDown>
@@ -30,29 +29,12 @@ const Hero = ({ children, offset }) => (
           top="10%"
         />
         <SVG
-          icon="triangle"
-          width={12}
-          stroke={colors.white}
-          left="90%"
-          top="50%"
-        />
-        <SVG
           icon="ironman"
           width={16}
           fill={colors["grey-darker"]}
           left="70%"
           top="90%"
         />
-        <SVG
-          icon="triangle"
-          width={16}
-          stroke={colors["grey-darkest"]}
-          left="30%"
-          top="65%"
-        />
-        <SVG icon="js" width={8} stroke={colors.grey} left="28%" top="15%" />
-        <SVG icon="fsc" width={30} fill={colors["red-darkest"]} left="2%" top="80%" />
-
         <SVG
           icon="ironman"
           width={6}
@@ -84,7 +66,13 @@ const Hero = ({ children, offset }) => (
         left="24%"
         top="20%"
       />
-      <SVG icon="ironman" width={30} fill={colors.orange} left="70%" top="60%" />
+      <SVG
+        icon="ironman"
+        width={30}
+        fill={colors.orange}
+        left="70%"
+        top="60%"
+      />
       <SVG
         icon="go"
         width={18}
@@ -100,13 +88,6 @@ const Hero = ({ children, offset }) => (
         left="40%"
         top="80%"
       />
-      <SVG
-        icon="triangle"
-        width={10}
-        stroke={colors.transparent}
-        left="25%"
-        top="5%"
-      />
       <SVG icon="ironman" width={64} fill={colors.green} left="95%" top="5%" />
       <SVG
         icon="box"
@@ -118,7 +99,13 @@ const Hero = ({ children, offset }) => (
       />
       <SVG icon="box" width={10} fill={colors.pink} left="10%" top="10%" />
       <SVG icon="box" width={12} fill={colors.yellow} left="40%" top="30%" />
-      <SVG icon="telescope" width={16} stroke={colors.red} left="10%" top="50%" />
+      <SVG
+        icon="telescope"
+        width={16}
+        stroke={colors.red}
+        left="10%"
+        top="50%"
+      />
       <SVG
         icon="go"
         width={8}
