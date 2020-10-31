@@ -123,12 +123,6 @@ const Head = (props) => {
         {JSON.stringify(schemaOrgWebPage)}
       </script>
       <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
-      <noscript>
-        <img
-          alt="analytics pixel"
-          src="https://shynet-aca.herokuapp.com/ingress/461a6205-3548-4c24-be16-abd4068aea46/pixel.gif"
-        />
-      </noscript>
       <script src="https://shynet-aca.herokuapp.com/ingress/461a6205-3548-4c24-be16-abd4068aea46/script.js"></script>
     </Helmet>
   );

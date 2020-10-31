@@ -165,6 +165,12 @@ const Index = () => (
         </Footer>
       </Contact>
     </Parallax>
+    <noscript>
+      <img
+        src="https://shynet-aca.herokuapp.com/ingress/461a6205-3548-4c24-be16-abd4068aea46/pixel.gif"
+        alt="tracking-pixel"
+      />
+    </noscript>
   </>
 );
 
