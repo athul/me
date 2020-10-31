@@ -162,10 +162,6 @@ const Index = () => (
         <Footer>
           &copy; 2020 by Athul Cyriac Ajay{" "}
           <a href="https://github.com/athul">GitHub Repository</a>.
-          <noscript>
-            <img src="https://shynet-aca.herokuapp.com/ingress/461a6205-3548-4c24-be16-abd4068aea46/pixel.gif" />
-          </noscript>{" "}
-          <script src="https://shynet-aca.herokuapp.com/ingress/461a6205-3548-4c24-be16-abd4068aea46/script.js"></script>
         </Footer>
       </Contact>
     </Parallax>
