@@ -70,7 +70,7 @@ const Index = () => (
           <br />
           <br />
           Checkout my
-          <a href="https://blog.athulcyriac.co"> Blog</a> where I write about
+          <a href="https://blog.athulcyriac.xyz"> Blog</a> where I write about
           tech and other stuff
           <br />
           <br /> Currently I'm a CS Undergrad at{" "}
