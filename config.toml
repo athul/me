@@ -1,12 +1,14 @@
-baseURL = "http://example.org/"
+baseURL = "http://athulcyriac.xyz/"
 languageCode = "en-us"
 title = "Athul Cyriac Ajay"
 theme = "archie"
+copyright = "© Athul"
+
 
 [params]
 	mode="dark" # color-mode → light,dark or auto
 	useCDN=true
-
+	favicon = "https://github.com/athul.png"
 [[menu.main]]
 name = "Books"
 url = "/books"
@@ -14,7 +16,7 @@ weight = 3
 
 [[menu.main]]
 name = "Resume"
-url = "https://drive.google.com/file/d/1fg-jn85uvlYX-adYlf084poLNOxPBOEi/view?usp=sharing"
+url = "/resume.pdf"
 weight = 3
 
 [[menu.main]]
@@ -22,14 +24,19 @@ name = "Projects"
 url = "/projects"
 weight = 2
 
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 1
+
 ####
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/athul"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://github.com/athulcajay/"
+url = "https://twitter.com/athulcajay/"
