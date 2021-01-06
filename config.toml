@@ -1,0 +1,35 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Athul Cyriac Ajay"
+theme = "archie"
+
+[params]
+	mode="dark" # color-mode → light,dark or auto
+	useCDN=true
+
+[[menu.main]]
+name = "Books"
+url = "/books"
+weight = 3
+
+[[menu.main]]
+name = "Resume"
+url = "https://drive.google.com/file/d/1fg-jn85uvlYX-adYlf084poLNOxPBOEi/view?usp=sharing"
+weight = 3
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 2
+
+####
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/athul/archie"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://github.com/athulcajay/"
