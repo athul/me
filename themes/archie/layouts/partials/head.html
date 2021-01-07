@@ -1,0 +1,10 @@
+<header>
+	<div class="main">
+		<a  style="color:white;border-bottom:none;font-size:1.5em;" href="{{ .Site.BaseURL }}" class="gradient-text">{{ .Site.Title }}</a>
+	</div>
+	<nav>
+		{{ range .Site.Menus.main }}
+		<a href="{{ .URL }}">{{ .Name }}</a> |
+		{{ end }}
+	</nav>
+</header>
