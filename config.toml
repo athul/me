@@ -3,7 +3,9 @@ languageCode = "en-us"
 title = "Athul Cyriac Ajay"
 theme = "archie"
 copyright = "© Athul"
-
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 [params]
 	mode="dark" # color-mode → light,dark or auto

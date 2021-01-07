@@ -67,13 +67,16 @@ img {
   border: 3px solid #ececec;
   max-width: 100%;
 }
-
+strong{
+  color: seashell;
+  font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', Roboto, Oxygen, Ubuntu, Cantarell, 'Avenir', 'Helvetica Neue', sans-serif;
+}
 .gradient-text {
   /* Fallback: Set a background color. */
   background-color: red;
   
   /* Create the gradient. */
-  background-image: linear-gradient(to right, #c02425, #f0cb35);
+  background-image: linear-gradient(to top, #1a2a6c, #b21f1f, #fdbb2d);
   
   /* Set the background size and repeat properties. */
   background-size: 100%;
