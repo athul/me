@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          readme-path: ./content/blog.md
+          readme_path: ./content/blog.md
           feed_list: https://blog.athulcyriac.xyz/rss.xml
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
           committer_username: GitHub Actions[Bot]
