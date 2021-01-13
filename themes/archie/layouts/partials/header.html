@@ -15,18 +15,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta property="og:description" content="{{ .Params.description }}" />
-	<meta name="twitter:description" content="{{ .Params.description }}" />
-	<meta name="description" content="{{ $.Param "description" }}" />
-	<meta name="description" content="{{ $.Params.description }}" />
-
-	<meta property="og:title" content="{{ $title }} | {{ $siteTitle }}" />
-	<meta name="twitter:title" content="{{ $title }} | {{ $siteTitle }}" />
-
 	<meta property="og:image" content="{{ .Site.Params.og_image }}"/>
-	<meta itemprop="name" content="{{ $title }} | {{ $siteTitle }}" />
-	<meta name="application-name" content="{{ $title }} | {{ $siteTitle }}" />
-	<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+	<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 	{{ with .OutputFormats.Get "rss" -}}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
@@ -39,10 +29,6 @@
 		<script src="{{ .Site.BaseURL }}js/feather.min.js"></script>
 	{{ end }}
 	{{ if .Site.Params.useCDN | default false -}}
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-		<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
 	{{- else -}}
         <link href="{{ .Site.BaseURL }}css/fonts.css" rel="stylesheet">
 	{{ end }}
