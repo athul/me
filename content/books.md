@@ -4,7 +4,7 @@ title = "Books"
 
 I have a fondness towards reading. I don't read that much but I buy books to read though 😅
 
-I'm currently reading the **God of Small Things** by Arundhathi Roy.
+I'm currently reading the **God of Small Things** by Arundhathi Roy and **The Daily Stoic** by Ryan Holiday.
 
 Next on my list are,
 
