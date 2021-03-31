@@ -5,6 +5,7 @@ theme = "archie"
 copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
+enableEmoji = true
 pygmentscodefencesguesssyntax = true
 
 [params]

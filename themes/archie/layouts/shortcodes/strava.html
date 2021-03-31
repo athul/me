@@ -1,0 +1,5 @@
+{{ if and (.Get "id") (.Get "hash") }}
+<div class="embed" align="center">
+    <iframe loading="lazy" style="height: 160px; width: 300;border: none;" allowtransparency="true" scrolling="no" src="https://www.strava.com/athletes/{{ .Get "id" }}/activity-summary/{{ .Get "hash" }}"></iframe>
+</div>
+{{ end }}
