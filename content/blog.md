@@ -26,4 +26,5 @@ Here are my blog posts though. Click them and you will be taken to the Site
 ## Posts written for [Logrocket Blog](https://blog.logrocket.com)
 
 <!-- LOGROCKET:START -->
+- [Using FastAPI to get updates from GitHub to Telegram](https://blog.logrocket.com/using-fastapi-to-get-updates-from-github-to-telegram/)
 <!-- LOGROCKET:END -->
