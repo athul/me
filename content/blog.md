@@ -19,6 +19,9 @@ Here are my blog posts though. Click them and you will be taken to the Site
 ## Posts written for [Twilio Blog](https://twilio.com/blog)
 
 <!-- TWILIO:START -->
+- [Build an SMS-to-Email Bridge with Python, FastAPI and Twilio](https://www.twilio.com/blog/build-sms-email-bridge-python-fastapi-twilio)
+- [Running a Mailing List with Airtable, Twilio SendGrid and Python](https://www.twilio.com/blog/running-mailing-list-airtable-twilio-sendgrid-python)
+- [Get SMS Updates from GitHub with Twilio, Python and GitHub Actions](https://www.twilio.com/blog/get-sms-updates-github-twilio-python-actions)
 <!-- TWILIO:END -->
 
 ---
