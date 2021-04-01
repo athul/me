@@ -13,3 +13,17 @@ Here are my blog posts though. Click them and you will be taken to the Site
 - [HoppScotch Doc Generation, a breakdown](https://blog.athulcyriac.xyz/hopp-gen/)
 - [Desk Setup - 2020](https://blog.athulcyriac.xyz/desk-2020/)
 <!-- BLOG-POST-LIST:END -->
+
+---
+
+## Posts written for [Twilio Blog](https://twilio.com/blog)
+
+<!-- TWILIO:START -->
+<!-- TWILIO:END -->
+
+---
+
+## Posts written for [Logrocket Blog](https://blog.logrocket.com)
+
+<!-- LOGROCKET:START -->
+<!-- LOGROCKET:END -->

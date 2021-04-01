@@ -13,7 +13,8 @@ I have been writing code in Python from 2018 after my High School studies. Befor
 
 I also write technical blogs for [Twilio](https://www.twilio.com/blog/author/aajay) and recently for [Logrocket](https://blog.logrocket.com/author/athulcyriac/). I also have my [personal blog](/blog) where I write about my side projects and other experiences. I also have a small digital garden, it's actually a work in progress from September 2020, you can read my notes and stuff [here](https://athul.github.io/notes)
 
-Currently I'm pursuing my Bachelor's Degree in _Computer Science and Engineering_ from [College of Engineering Kidangoor](https://ce-kgr.org) under [APJ Abdul Kalam Technological University](https://ktu.edu.in). I'll graduate by 2022.Wanna know more? Check [this](/chavar) out :grin:
+Currently I'm pursuing my Bachelor's Degree in _Computer Science and Engineering_ from [College of Engineering Kidangoor](https://ce-kgr.org) under [APJ Abdul Kalam Technological University](https://ktu.edu.in). I'll graduate by 2022.
+> Wanna know more? Check [this](/chavar) out :grin:
 
 You can reach out to me on,
 

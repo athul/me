@@ -15,3 +15,27 @@ jobs:
           feed_list: https://blog.athulcyriac.xyz/rss.xml
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
           committer_username: GitHub Actions[Bot]
+  update-readme-with-twl-blogs:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          readme_path: ./content/blog.md
+          comment_tag_name: "TWILIO"
+          feed_list: https://www.twilio.com/blog/author/aajay/feed
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+          committer_username: GitHub Actions[Bot]
+  update-readme-with-lgrck-blogs:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          readme_path: ./content/blog.md
+          comment_tag_name: "LOGROCKET"
+          feed_list: https://blog.logrocket.com/author/athulcyriac/feed/
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+          committer_username: GitHub Actions[Bot]

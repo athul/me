@@ -2,7 +2,7 @@
 title = "Projects"
 +++
 
-Most of my time I spend on my Side Projects. I experiment with a variety of stuff and hone my skills with these projects. I mostly use Python and Go for these stuff and sometime JavaScript. For backend stuff I use either FastAPI or Django(Python) and Echo or Gin for Go. For frontend, I always prefer Vue.js or just use Golang Templates. Checkout my [GitHub](https://github.com/athul) for other projects
+Most of my time I spend on my Side Projects. I experiment with a variety of stuff and hone my skills with these projects. I mostly use Python and Go for these stuff and sometime JavaScript. For backend stuff I use either FastAPI or Django(Python) and Echo or Gin for Go. For frontend, I always prefer Vue.js or just use a templating library(Jinja or Go Templates). Checkout my [GitHub](https://github.com/athul) for other projects
 
 ### [Shelby](https://github.com/athul/shelby)
 
@@ -22,7 +22,7 @@ Most of my time I spend on my Side Projects. I experiment with a variety of stuf
 ---
 Some other Projects are
 
-- [JioFi CLI](https://github.com/athul/jiofi-cli) a CLI for a JioFi router. It connects to the JioFI server and fetches info via HTTP request. Built with Python
+- [JioFi CLI](https://github.com/athul/jiofi-cli) a CLI for a JioFi router. It connects to the JioFi server and fetches info via HTTP requests. Built with Python
 - [Hopp CLI](https://github.com/hoppscotch/hopp-cli) official CLI for the HoppScotch Project. Made with Go and it features include Multiple HTTP Requests and Documentation Generation for HTTP Requests.
 - [zet](https://github.com/athul/zet) is a fork of [zettel](https://github.com/hackstream/zettel) which is a Site Generator for Digital Gardens. My fork includes many new features like search, better Graph stylings and faster pages.
 - [TermChat](https://github.com/athul/termchat) can be used to send messages from terminal via websockets.
