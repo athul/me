@@ -25,6 +25,7 @@ jobs:
           readme_path: ./content/blog.md
           comment_tag_name: "TWILIO"
           feed_list: https://www.twilio.com/blog/author/aajay/feed
+          disable_sort: true
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
           committer_username: GitHub Actions[Bot]
   update-readme-with-lgrck-blogs:
