@@ -3,7 +3,7 @@
 :root{
 --maincolor: red;
 --bordercl:rebeccapurple;
---callouctcolor:dodgerblue;
+--callouctcolor:blue;
 --hovercolor:navy;
 --darkMaincolor: #50fa7b;
 }
@@ -201,7 +201,7 @@ article .title {
 
 /* Callout */
 .callout {
-  background-color: var(--callouctcolor);
+  background: linear-gradient(to right, #200122, #6f0000);
   color: #fff;
   padding: 1em;
 }
@@ -212,7 +212,8 @@ article .title {
 }
 
 .callout a {
-  border-bottom: 3px solid #fff;
+  color: white;
+  border-bottom: 3px solid brown;
 }
 
 .callout a:hover {
