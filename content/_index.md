@@ -11,7 +11,7 @@ My Name is **Athul Cyriac Ajay**. I'm from Kottayam, Kerala, India. I'm a studen
 
 {{< callout text="Currently I'm interning at [Frappe](https://frappe.io)" >}}
 
-I have been writing code in Python from 2018 after my High School studies. Before that I used to write C++ for school stuff. I have been writing back-end in Django and Flask and have worked on a few college Projects. I also shifted from Python to Go in the late 2019's, I have a few projects with Go. I'm currently working on making a platform for the Hackathon Organizers and Hackers in Kerala and a Finance Tracking system to get insights from my spendings.
+I have been writing code in Python from 2018 after my High School studies. Before that I used to write C++ for school stuff. I have been writing back-end in Django and Flask and have worked on a few college Projects. I also shifted from Python to Go in late 2019, I have a few projects with Go. I'm currently working on making a platform for the Hackathon Organizers and Hackers in Kerala and a Finance Tracking system to get insights from my spendings.
 
 I also write technical blogs for [Twilio](https://www.twilio.com/blog/author/aajay) and recently for [Logrocket](https://blog.logrocket.com/author/athulcyriac/). I also have my [personal blog](/blog) where I write about my side projects and other experiences. I also have a small digital garden, it's actually a work in progress from September 2020, you can read my notes and stuff [here](https://athul.github.io/notes)
 
