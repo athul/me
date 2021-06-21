@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 /* Markdown */
 :root{
---maincolor: red;
+--maincolor: #f17e3a;
 --bordercl:rebeccapurple;
 --callouctcolor:blue;
 --hovercolor:navy;
@@ -75,11 +75,10 @@ strong{
   background-color: red;
   
   /* Create the gradient. */
-  background-image: linear-gradient(to left, orange, var(--darkMaincolor));
+  background: linear-gradient(-45deg, orange, crimson, dodgerblue);
   
   /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
+  background-size: 150% 80%;
 
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
@@ -87,7 +86,20 @@ strong{
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+  animation: gradient 10s ease infinite;
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 figure {
   box-sizing: border-box;

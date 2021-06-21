@@ -16,7 +16,7 @@ body {
 }
 
 hr {
-  border-top:2px solid var(--darkMaincolor);
+  border-top:2px solid var(--maincolor);
 }
 code {
   background-color: lightblue;
@@ -45,36 +45,36 @@ h6 {
   color: #ddd;
 }
 h1::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "# ";
 }
 h2::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "## ";
 }
 h3::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "### ";
 }
 h4::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "#### ";
 }
 h5::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "##### ";
 }
 h6::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "###### ";
 }
 
 a {
   /* border-bottom: 3px solid orange; */
-  color: orange;
+  color: var(--darkMaincolor);
 }
 a:hover {
-  background-color: orange;
+  background-color: var(--darkMaincolor);
   color: black;
 }
 
