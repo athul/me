@@ -9,7 +9,6 @@ Welcome to my little corner on the Internet.
 
 My Name is **Athul Cyriac Ajay**. I'm from Kottayam, Kerala, India. I'm a student developer, a [GitHub Campus Expert](https://githubcampus.expert/athul) and an [Auth0 Ambassador](https://auth0.com/ambassador-program). I spend my weekends attending Hackathons and hacking on my side projects. Read more about my [Projects](/projects).
 
-{{< callout text="Currently I'm interning at [Frappe](https://frappe.io)" >}}
 
 I have been writing code in Python from 2018 after my High School studies. Before that I used to write C++ for school stuff. I have been writing back-end in Django and Flask and have worked on a few college Projects. I also shifted from Python to Go in late 2019, I have a few projects with Go. I'm currently working on making a platform for the Hackathon Organizers and Hackers in Kerala and a Finance Tracking system to get insights from my spendings.
 
