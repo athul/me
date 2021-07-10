@@ -22,3 +22,4 @@ Books I've read/listened in 2021
 - **Kafka on the Shore** by Haruki Murakami
 - **Looking for Alaska** by John Green
 - **Mayyazhipuzhayude Theerangalil**(Malayalam) by M Mukundan
+- **Metamorphosis** by Franz Kafka
