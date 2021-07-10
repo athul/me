@@ -4,7 +4,7 @@ title = "Books"
 
 I have a fondness towards reading. I don't read that much but I buy books to read though 😅. Now it's mostly usually Audiobooks. I listen to audiobooks while cycling.
 
-I'm currently reading **The Handmaid's Tale** by Margaret Atwood.
+{{< callout emoji="📖" text="I'm currently reading **The Handmaid's Tale** by Margaret Atwood.">}}
 
 Next on my list are author specific. I'm planning to read books by John Green, Khalid Hosseini and Salman Rushdie.
 

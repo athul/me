@@ -213,9 +213,10 @@ article .title {
 
 /* Callout */
 .callout {
-  background: linear-gradient(to right, #200122, #6f0000);
+  background: linear-gradient(to right, #4e4a85, #3b0a3b);
   color: #fff;
   padding: 1em;
+  border-radius: 2ch;
 }
 
 .callout p {
