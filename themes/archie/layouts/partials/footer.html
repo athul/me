@@ -1,15 +1,20 @@
 <footer>
-<hr>
-{{- range $index, $key := .Site.Params.Social -}}
-<a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>|
-{{- end -}} ⚡️
-	{{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  <hr />
+  {{- range $index, $key := .Site.Params.Social -}}
+  <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"
+    ><i data-feather="{{ $key.icon }}"></i></a
+  >| {{- end -}} ⚡️ {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ .
+  }} | {{ end }} <a href="https://github.com/athul/archie">Archie Theme</a> |
+  Built with <a href="https://gohugo.io">Hugo</a>
 </footer>
-{{ if not .Site.IsServer }} 
-<script data-goatcounter="https://a2hu1.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-{{- end }}
-{{- if (isset .Site.Params "social") -}}
+{{ if not .Site.IsServer }}
+<script
+  defer
+  src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon='{"token": "0454b8864e4d49c8a2265452a5c558c0"}'
+></script>
+{{- end }} {{- if (isset .Site.Params "social") -}}
 <script>
-      feather.replace()
+  feather.replace();
 </script>
 {{- end -}}
