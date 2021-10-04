@@ -7,6 +7,8 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 enableEmoji = true
 pygmentscodefencesguesssyntax = true
+enableGitInfo = true
+
 
 [params]
 	mode="dark" # color-mode → light,dark or auto
