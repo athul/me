@@ -12,11 +12,11 @@ My Name is **Athul Cyriac Ajay**. I'm from Kottayam, Kerala, India. I'm a studen
 
 I have been writing code in Python from 2018 after my High School studies. Before that I used to write C++ for school stuff. I have been writing back-end in Django and Flask and have worked on a few college Projects. I also shifted from Python to Go in late 2019, I have a few projects with Go. I'm currently working on making a platform for the Hackathon Organizers and Hackers in Kerala and a Finance Tracking system to get insights from my spendings.
 
-I also write technical blogs for [Twilio](https://www.twilio.com/blog/author/aajay) and recently for [Logrocket](https://blog.logrocket.com/author/athulcyriac/). I also have my [personal blog](/blog) where I write about my side projects and other experiences. I also have a small digital garden, it's actually a work in progress from September 2020, you can read my notes and stuff [here](https://athul.github.io/notes)
+I write technical blogs for [Twilio](https://www.twilio.com/blog/author/aajay) and recently for [Logrocket](https://blog.logrocket.com/author/athulcyriac/). I write about my side projects and other experiences on my [personal blog](/blog). I also have a small digital garden, it's actually a work in progress from September 2020, you can read my notes and stuff [here](https://athul.github.io/notes).
 
-Currently I'm pursuing my Bachelor's Degree in _Computer Science and Engineering_ from [College of Engineering Kidangoor](https://ce-kgr.org) under [APJ Abdul Kalam Technological University](https://ktu.edu.in). I'll graduate by 2022.
+Currently I'm pursuing my Bachelor's Degree in _Computer Science and Engineering_ from [College of Engineering Kidangoor](https://ce-kgr.org) under [APJ Abdul Kalam Technological University](https://ktu.edu.in). I'll graduate by 2022. I have previously been an Intern at [Frappe](https://frappe.io) for Summer 2021 and [Algoshelf](https://angel.co/company/algoshelf) for Summer of 2020.
 
-> Wanna know more? Check [this](/chavar) out :grin:
+> Wanna know more about me? Check [this](/chavar) out :grin:
 
 You can reach out to me on,
 

@@ -2,7 +2,9 @@
 title = "Projects"
 +++
 
-Most of my time I spend on my Side Projects. I experiment with a variety of stuff and hone my skills with these projects. I mostly use Python and Go for these stuff and sometime JavaScript. For backend stuff I use either FastAPI or Django(Python) and Echo or Gin for Go. For frontend, I always prefer Vue.js or just use a templating library(Jinja or Go Templates). Checkout my [GitHub](https://github.com/athul) for other projects
+Most of my time I spend on my Side Projects. I experiment with a variety of stuff and hone my skills with these projects. I mostly use Python and Go for these stuff and sometime JavaScript. For backend stuff I use either FastAPI or Django(Python) and Echo or Gin for Go. For frontend, I always prefer Vue.js or just use a templating library(Jinja or Go Templates). Checkout my [GitHub](https://github.com/athul) for other projects.
+
+{{< callout emoji="⌨" text="I'm currently building my new Keyboard, an **Ergodash**">}}
 
 ### [Shelby](https://github.com/athul/shelby)
 
@@ -20,6 +22,7 @@ Most of my time I spend on my Side Projects. I experiment with a variety of stuf
 - I developed it in 2020 and it's the same theme that powers this site.
 
 ---
+
 Some other Projects are
 
 - [JioFi CLI](https://github.com/athul/jiofi-cli) a CLI for a JioFi router. It connects to the JioFi server and fetches info via HTTP requests. Built with Python
