@@ -12,7 +12,7 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           readme_path: ./content/blog.md
-          feed_list: https://blog.athulcyriac.xyz/index.xml
+          feed_list: https://blog.athulcyriac.in/index.xml
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
           committer_username: GitHub Actions[Bot]
   update-readme-with-twl-blogs:
