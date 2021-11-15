@@ -2,7 +2,7 @@
 title = "Blog"
 +++
 
-I write my blog posts on my other site, https://blog.athulcyriac.xyz
+I write my blog posts on my other site, https://blog.athulcyriac.in
 
 Here are my blog posts though. Click them and you will be taken to the Site
 

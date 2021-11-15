@@ -1,4 +1,4 @@
-baseURL = "https://athulcyriac.xyz/"
+baseURL = "https://athulcyriac.in/"
 languageCode = "en-us"
 title = "Athul Cyriac Ajay"
 theme = "archie"
@@ -9,14 +9,14 @@ enableEmoji = true
 pygmentscodefencesguesssyntax = true
 enableGitInfo = true
 
-
 [params]
-	mode="dark" # color-mode → light,dark or auto
-	useCDN=true
-	favicon = "https://github.com/athul.png"
-	og_image = "https://file.coffee/u/zrbyj5l-Ek.png"
-	sitename = "Athul's Personal website"
-	description="Athul's Personal Website built with Hugo and Archie Theme"
+mode = "dark" # color-mode → light,dark or auto
+useCDN = true
+favicon = "https://github.com/athul.png"
+og_image = "https://file.coffee/u/zrbyj5l-Ek.png"
+sitename = "Athul's Personal website"
+description = "Athul's Personal Website built with Hugo and Archie Theme"
+
 [[menu.main]]
 name = "Books"
 url = "/books"
@@ -38,7 +38,6 @@ url = "/blog"
 weight = 1
 
 ####
-
 [[params.social]]
 name = "GitHub"
 icon = "github"
