@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 /* Markdown */
-:root{
---maincolor: #f17e3a;
---bordercl:rebeccapurple;
---callouctcolor:blue;
---hovercolor:navy;
---darkMaincolor: #50fa7b;
+:root {
+  --maincolor: #f17e3a;
+  --bordercl: rebeccapurple;
+  --callouctcolor: blue;
+  --hovercolor: navy;
+  --darkMaincolor: #50fa7b;
 }
 html {
   color: #232333;
-  font-family: 'IBM Plex Sans',Sans Serif;
+  font-family: "Fira Code", Sans Serif;
   font-size: 15px;
   line-height: 1.6em;
 }
-body{
+body {
   display: block;
   margin: 8px;
 }
@@ -27,7 +27,7 @@ body{
 }
 
 p {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "Fira Code", sans-serif;
   line-height: 1.5;
   font-size: large;
 }
@@ -54,7 +54,7 @@ ul {
   padding-left: 2ch;
 }
 ul li {
-font-size:large;
+  font-size: large;
   text-indent: -2ch;
 }
 ul li::before {
@@ -67,39 +67,39 @@ img {
   border: 3px solid #ececec;
   max-width: 100%;
 }
-strong{
-  font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', Roboto, Oxygen, Ubuntu, Cantarell, 'Avenir', 'Helvetica Neue', sans-serif;
-}
+/* strong {
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Avenir", "Helvetica Neue", sans-serif;
+} */
 .gradient-text {
   /* Fallback: Set a background color. */
   background-color: red;
-  
+
   /* Create the gradient. */
   background: linear-gradient(-45deg, orange, crimson, dodgerblue);
-  
+
   /* Set the background size and repeat properties. */
   background-size: 150% 80%;
 
   /* Use the text as a mask for the background. */
   /* This will show the gradient as a text color rather than element bg. */
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   animation: gradient 10s ease infinite;
 }
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 
 figure {
   box-sizing: border-box;
@@ -124,13 +124,13 @@ figure h4 {
   margin-bottom: 1em;
 }
 figure h4::before {
-  content: '↳ ';
+  content: "↳ ";
 }
 
 /* Code blocks */
 code {
   background-color: #f1f1f1;
-  padding: .1em .2em;
+  padding: 0.1em 0.2em;
 }
 
 pre {
@@ -173,23 +173,43 @@ header {
 header .main {
   font-size: 1.5rem;
 }
-h2{
+h2 {
   font-size: 1.7em;
 }
-h3{
+h3 {
   font-size: 1.5em;
-} 
-h4, h5, h6 {
+}
+h4,
+h5,
+h6 {
   font-size: 1.2rem;
   margin-top: 2em;
 }
 
-h1::before { color: var(--maincolor); content: '# '; }
-h2::before { color: var(--maincolor); content: '## '; }
-h3::before { color: var(--maincolor); content: '### '; }
-h4::before { color: var(--maincolor); content: '#### '; }
-h5::before { color: var(--maincolor); content: '##### '; }
-h6::before { color: var(--maincolor); content: '###### '; }
+h1::before {
+  color: var(--maincolor);
+  content: "# ";
+}
+h2::before {
+  color: var(--maincolor);
+  content: "## ";
+}
+h3::before {
+  color: var(--maincolor);
+  content: "### ";
+}
+h4::before {
+  color: var(--maincolor);
+  content: "#### ";
+}
+h5::before {
+  color: var(--maincolor);
+  content: "##### ";
+}
+h6::before {
+  color: var(--maincolor);
+  content: "###### ";
+}
 
 /* Footer */
 footer {
@@ -210,7 +230,6 @@ article .title {
   margin-bottom: 1em;
 }
 
-
 /* Callout */
 .callout {
   background: linear-gradient(to right, #4e4a85, #3b0a3b);
@@ -220,7 +239,7 @@ article .title {
 }
 
 .callout p {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   margin: 0;
 }
 
@@ -235,32 +254,32 @@ article .title {
 }
 
 .site-description {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.tags li::before{
+.tags li::before {
   content: "🏷 ";
 }
-.tags a{
-  border-bottom: 3px solid var(--maincolor); 
+.tags a {
+  border-bottom: 3px solid var(--maincolor);
 }
-.tags a:hover{
-  color:white;
-  background-color: var(--hovercolor); 
+.tags a:hover {
+  color: white;
+  background-color: var(--hovercolor);
 }
-svg{
+svg {
   max-height: 15px;
 }
-.soc:hover{
+.soc:hover {
   color: white;
 }
-.draft-label{ 
-    color: var(--bordercl);
-    text-decoration: none;
-    padding: 2px 4px;
-    border-radius: 4px;
-    margin-left: 6px;
-    background-color: #f9f2f4;
+.draft-label {
+  color: var(--bordercl);
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 6px;
+  background-color: #f9f2f4;
 }
 .highlight {
   position: relative;
@@ -283,49 +302,49 @@ svg{
   top: 0;
 }
 
-.highlight pre code[class=language-javaScript]::before,
+.highlight pre code[class="language-javaScript"]::before,
 .highlight pre code[class="language-js"]::before {
-content: "js";
-background: #f7df1e;
-color: black;
+  content: "js";
+  background: #f7df1e;
+  color: black;
 }
-.highlight pre code[class*='language-yml']::before,
-.highlight pre code[class*='language-yaml']::before {
-content: 'yaml';
-background: #f71e6a;
-color: white;
+.highlight pre code[class*="language-yml"]::before,
+.highlight pre code[class*="language-yaml"]::before {
+  content: "yaml";
+  background: #f71e6a;
+  color: white;
 }
-.highlight pre code[class*='language-shell']::before,
-.highlight pre code[class*='language-bash']::before,
-.highlight pre code[class*='language-sh']::before {
-content: 'shell';
-background: green;
-color:white
+.highlight pre code[class*="language-shell"]::before,
+.highlight pre code[class*="language-bash"]::before,
+.highlight pre code[class*="language-sh"]::before {
+  content: "shell";
+  background: green;
+  color: white;
 }
-.highlight pre code[class*='language-json']::before{
-content: 'json';
-background: dodgerblue;
- color: #000000 
+.highlight pre code[class*="language-json"]::before {
+  content: "json";
+  background: dodgerblue;
+  color: #000000;
 }
-.highlight pre code[class*='language-python']::before,
-.highlight pre code[class*='language-py']::before {
-content: 'py';
-background: blue;
-color: yellow ;
+.highlight pre code[class*="language-python"]::before,
+.highlight pre code[class*="language-py"]::before {
+  content: "py";
+  background: blue;
+  color: yellow;
 }
-.highlight pre code[class*='language-css']::before{
-content: 'css';
-background: cyan;
-color: black ;
+.highlight pre code[class*="language-css"]::before {
+  content: "css";
+  background: cyan;
+  color: black;
 }
-.highlight pre code[class*='language-go']::before{
-content: 'Go';
-background: cyan;
-color: royalblue ;
+.highlight pre code[class*="language-go"]::before {
+  content: "Go";
+  background: cyan;
+  color: royalblue;
 }
-.highlight pre code[class*='language-md']::before,
-.highlight pre code[class*='language-md']::before{
-content: 'Markdown';
-background: royalblue;
-color: whitesmoke ;
+.highlight pre code[class*="language-md"]::before,
+.highlight pre code[class*="language-md"]::before {
+  content: "Markdown";
+  background: royalblue;
+  color: whitesmoke;
 }

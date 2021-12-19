@@ -4,8 +4,6 @@ title = "Projects"
 
 Most of my time I spend on my Side Projects. I experiment with a variety of stuff and hone my skills with these projects. I mostly use Python and Go for these stuff and sometime JavaScript. For backend stuff I use either FastAPI or Django(Python) and Echo or Gin for Go. For frontend, I always prefer Vue.js or just use a templating library(Jinja or Go Templates). Checkout my [GitHub](https://github.com/athul) for other projects.
 
-{{< callout emoji="⌨" text="I'm currently building my new Keyboard, an **Ergodash**">}}
-
 ### [Shelby](https://github.com/athul/shelby)
 
 - A minimal and Fast Shell Prompt made with Go
@@ -31,3 +29,13 @@ Some other Projects are
 - [TermChat](https://github.com/athul/termchat) can be used to send messages from terminal via websockets.
 - [Jimbru](https://github.com/athul/jimbru) is an Analytics server and dashboard built with FastAPI and Jinja2.
 - [MailMon](https://github.com/athul/mailmon) is a small server which sends Newsletters and Emails for multiple people. Made with Go and Vue.js.
+
+---
+
+## Hobby Projects
+
+These are mainly my Mechanical Keyboard projects
+
+### Ergodash
+
+My first mechanical keyboard build. Cost me nearly $100(₹7000) but it was really worth it. Planning to build a [CRKBD](https://github.com/foostan/crkbd).
