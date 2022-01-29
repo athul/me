@@ -38,4 +38,8 @@ These are mainly my Mechanical Keyboard projects
 
 ### Ergodash
 
-My first mechanical keyboard build. Cost me nearly $100(₹7000) but it was really worth it. Planning to build a [CRKBD](https://github.com/foostan/crkbd).
+My first mechanical keyboard build. Cost me nearly $100(₹7000) but it was really worth it.
+
+### CRKBD/Corne
+
+My second mechanical keyboard build. Cost me less than $100. I am liking the 40% keyboard usage.

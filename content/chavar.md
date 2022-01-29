@@ -10,7 +10,7 @@ Learning to play the Guitar is my post-20-age-crisis. I'm learning it online and
 
 ## Mechanical Keyboards
 
-I m very fond of Mechanical Keybaords. I build a macropad with mechanical switches myself and it's been quite rewarding. I'm currently building a ergo-split keyboard(split keyboard gang). I previously owned a Keychron K2 but had to drop it since there was no freedom to remap the keys and flash a firmware of my liking.
+I m very fond of Mechanical Keybaords. I build a macropad with mechanical switches myself and it's been quite rewarding. I have built two ergo-split keyboards, an Ergodash and a Corne(split keyboard gang). I previously owned a Keychron K2 but had to drop it since there was no freedom to remap the keys and flash a firmware of my liking.
 
 ## Photography
 
