@@ -7,11 +7,11 @@ I write my blog posts on my other site, https://blog.athulcyriac.in
 Here are my blog posts though. Click them and you will be taken to the Site
 
 <!-- BLOG-POST-LIST:START -->
+- [Philosophy Athre Philosophy](https://blog.athulcyriac.in/blog/philosophies/)
 - [The Athul of 2021](https://blog.athulcyriac.in/blog/2021-me/)
 - [Bye K2](https://blog.athulcyriac.in/blog/bye-k2/)
 - [Two Planets](https://blog.athulcyriac.in/blog/two-planets/)
 - [Of Wires and Solder](https://blog.athulcyriac.in/blog/macropad/)
-- [Coming Back to Pink Floyd](https://blog.athulcyriac.in/blog/pink-floyd/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
