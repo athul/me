@@ -4,11 +4,11 @@ title = "Books"
 
 I have a fondness towards reading. I don't read that much but I buy books to read though 😅. Now it's mostly usually Audiobooks. I listen to audiobooks while cycling. I'm more into fiction and science fiction and periodically read non-fiction(usually recommended books by friends).
 
-{{< callout emoji="📖" text="I'm currently reading *The Handmaid's Tale* by Margaret Atwood and _Francis Ittykora_ by T.D Ramakrishnan.">}}
+{{< callout emoji="📖" text="I'm currently reading *The Handmaid's Tale* by Margaret Atwood">}}
 
 ---
 
-{{< callout emoji="🎧" text="I'm currently listening to _Zen and Art of Motorcycle Maintanence_ by Robert M Pirzig and *Atomic Habits* by James Clear">}}
+{{< callout emoji="🎧" text="I'm currently listening to _Zen and Art of Motorcycle Maintanence_ by Robert M Pirzig and ">}}
 
 I'm planning to read _Sapiens_ by Yuval Noah Harari.
 
@@ -36,4 +36,6 @@ Books I've read/listened in 2022
 - _The Prophet_(Malayalam) by Khalil Gibran
 - _Ikigai_ by Hector Garcia and Francesc Miralles
 - _The Myth of Sisyphus and Other Essays_ by Albert Camus
+- _Francis Ittykora_ by T.D Ramakrishnan
+- _Atomic Habits_ by James Clear
 - _Dune Messiah_ by Frank Herbert
