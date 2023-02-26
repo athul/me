@@ -7,11 +7,11 @@ I write my blog posts on my other site, https://blog.athulcyriac.in
 Here are my blog posts though. Click them and you will be taken to the Site
 
 <!-- BLOG-POST-LIST:START -->
+- [The Purpose of being Purposeless](https://blog.athulcyriac.in/blog/purpose/)
 - [22 and Still Dumb!](https://blog.athulcyriac.in/blog/2022/)
 - [Eternal Sunshine](https://blog.athulcyriac.in/blog/college-trip/)
 - [The last 100 days](https://blog.athulcyriac.in/blog/final-year/)
 - [The Sunset Revelation](https://blog.athulcyriac.in/blog/philosphy-2/)
-- [Philosophy Athre Philosophy](https://blog.athulcyriac.in/blog/philosophies/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
