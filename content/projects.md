@@ -43,3 +43,15 @@ My first mechanical keyboard build. Cost me nearly $100(₹7000) but it was real
 ### CRKBD/Corne
 
 My second mechanical keyboard build. Cost me less than $100. I am liking the 40% keyboard usage.
+
+### Ferricy
+
+34 Key keyboard. Low Profile. Custom designed the PCB(forked and changed the silkscreen). Had to import the Switches and Keycaps from Canada.
+
+### Corne Wireless
+
+Xiao based Wireless Corne. Cute 3D printed case.
+
+### KLOR
+
+Most elaborate keyboard after Ergodash. Big OLED Screens makes it a lot more fun
