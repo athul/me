@@ -7,11 +7,11 @@ I write my blog posts on my other site, https://blog.athulcyriac.in
 Here are my blog posts though. Click them and you will be taken to the Site
 
 <!-- BLOG-POST-LIST:START -->
+- [Yearly Review 2023](https://blog.athulcyriac.in/blog/2023/)
+- [For Abraham, forever ago](https://blog.athulcyriac.in/blog/abraham/)
 - [20 → 22](https://blog.athulcyriac.in/blog/20-and-22/)
 - [The Purpose of being Purposeless](https://blog.athulcyriac.in/blog/purpose/)
 - [22 and Still Dumb!](https://blog.athulcyriac.in/blog/2022/)
-- [Eternal Sunshine](https://blog.athulcyriac.in/blog/college-trip/)
-- [The last 100 days](https://blog.athulcyriac.in/blog/final-year/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
