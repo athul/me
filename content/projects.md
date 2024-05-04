@@ -12,7 +12,7 @@ Most of my time I spend on my Side Projects. I experiment with a variety of stuf
 ### [Waka-Readme](https://github.com/athul/waka-readme)
 
 - Self Updating GitHub Action for GitHub Profile Readme
-- 300+ stars on GitHub
+- 1.3k+ stars on GitHub
 
 ### [Archie](https://github.com/athul/archie)
 
