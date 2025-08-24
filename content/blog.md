@@ -7,11 +7,11 @@ I write my blog posts on my other site, https://blog.athulcyriac.in
 Here are my blog posts though. Click them and you will be taken to the Site
 
 <!-- BLOG-POST-LIST:START -->
+- [Hacking with Knives and Spoons](https://blog.athulcyriac.in/blog/cooking/)
 - [Yearly Review 2024](https://blog.athulcyriac.in/blog/2024/)
 - [Python + Nix Flakes + Containers](https://blog.athulcyriac.in/blog/docker-nix-python/)
 - [Yearly Review 2023](https://blog.athulcyriac.in/blog/2023/)
 - [For Abraham, forever ago](https://blog.athulcyriac.in/blog/abraham/)
-- [20 → 22](https://blog.athulcyriac.in/blog/20-and-22/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
