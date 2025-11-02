@@ -1,350 +1,546 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 /* Markdown */
 :root {
-  --maincolor: #f17e3a;
-  --bordercl: rebeccapurple;
-  --callouctcolor: blue;
-  --hovercolor: navy;
-  --darkMaincolor: #50fa7b;
+    --maincolor: #f17e3a;
+    --bordercl: rebeccapurple;
+    --callouctcolor: blue;
+    --hovercolor: navy;
+    --darkMaincolor: #50fa7b;
 }
 html {
-  color: #232333;
-  font-family: "Fira Code", Sans Serif;
-  font-size: 15px;
-  line-height: 1.6em;
+    color: #232333;
+    font-family:
+        "Fira Code",
+        Sans Serif;
+    font-size: 15px;
+    line-height: 1.6em;
 }
 body {
-  display: block;
-  margin: 8px;
+    display: block;
+    margin: 8px;
 }
 * {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 ::selection {
-  background: var(--maincolor);
-  color: #fff;
+    background: var(--maincolor);
+    color: #fff;
 }
 
 p {
-  font-family: "Fira Code", sans-serif;
-  line-height: 1.5;
-  font-size: large;
+    font-family: "Fira Code", sans-serif;
+    line-height: 1.5;
+    font-size: large;
 }
 
 hr {
-  border: 0;
-  border-top: 3px solid var(--bordercl);
-  margin: 1em 0;
+    border: 0;
+    border-top: 3px solid var(--bordercl);
+    margin: 1em 0;
 }
 
 blockquote {
-  border-left: 3px solid var(--bordercl);
-  color: #737373;
-  margin: 0;
-  padding-left: 1em;
+    border-left: 3px solid var(--bordercl);
+    color: #737373;
+    margin: 0;
+    padding-left: 1em;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul {
-  list-style: inside;
-  padding-left: 2ch;
+    list-style: inside;
+    padding-left: 2ch;
 }
 ul li {
-  font-size: large;
-  text-indent: -2ch;
+    font-size: large;
+    text-indent: -2ch;
 }
 ul li::before {
-  /* content: '* '; */
-  font-weight: bold;
+    /* content: '* '; */
+    font-weight: bold;
 }
 
 /* Images */
 img {
-  border: 3px solid #ececec;
-  max-width: 100%;
+    border: 3px solid #ececec;
+    max-width: 100%;
 }
 /* strong {
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Roboto, Oxygen,
     Ubuntu, Cantarell, "Avenir", "Helvetica Neue", sans-serif;
 } */
 .gradient-text {
-  /* Fallback: Set a background color. */
-  background-color: red;
+    /* Fallback: Set a background color. */
+    background-color: #6366f1;
 
-  /* Create the gradient. */
-  background: linear-gradient(-45deg, orange, crimson, dodgerblue);
+    /* Create a modern, vibrant gradient with more colors. */
+    background: linear-gradient(
+        45deg,
+        #ff006e,
+        #8338ec,
+        #3a86ff,
+        #06ffa5,
+        #ffbe0b,
+        #fb5607
+    );
 
-  /* Set the background size and repeat properties. */
-  background-size: 150% 80%;
+    /* Larger background size for smoother animation. */
+    background-size: 400% 400%;
 
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  animation: gradient 10s ease infinite;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    /* Faster, smoother animation with easing. */
+    animation: gradient-shift 3s ease-in-out infinite;
+
+    /* Add subtle text shadow for better visibility */
+    filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.3));
 }
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    75% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 figure {
-  box-sizing: border-box;
-  display: inline-block;
-  margin: 0;
-  max-width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
 }
 
 figure img {
-  max-height: 500px;
+    max-height: 500px;
 }
 
 @media screen and (min-width: 600px) {
-  figure {
-    padding: 0 40px;
-  }
+    figure {
+        padding: 0 40px;
+    }
 }
 
 figure h4 {
-  font-size: 1rem;
-  margin: 0;
-  margin-bottom: 1em;
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 1em;
 }
 figure h4::before {
-  content: "↳ ";
+    content: "↳ ";
 }
 
 /* Code blocks */
 code {
-  background-color: #f1f1f1;
-  padding: 0.1em 0.2em;
+    background-color: #f1f1f1;
+    padding: 0.1em 0.2em;
 }
 
 pre {
-  background-color: #ececec;
-  line-height: 1.4;
-  overflow-x: auto;
-  padding: 1em;
+    background-color: #ececec;
+    line-height: 1.4;
+    overflow-x: auto;
+    padding: 1em;
 }
 
 .highlight pre ::selection {
-  background: rgba(255, 255, 255, 0.2);
-  color: inherit;
+    background: rgba(255, 255, 255, 0.2);
+    color: inherit;
 }
 
 pre code {
-  background-color: transparent;
-  color: inherit;
-  font-size: 100%;
-  padding: 0;
+    background-color: transparent;
+    color: inherit;
+    font-size: 100%;
+    padding: 0;
 }
 
 /* Containers */
 .content {
-  margin-bottom: 4em;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
-  padding: 0 1ch;
-  word-wrap: break-word;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding: 0 1ch;
+    word-wrap: break-word;
 }
 
 /* Header */
 header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
 }
 
 header .main {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 h2 {
-  font-size: 1.7em;
+    font-size: 1.7em;
 }
 h3 {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 h4,
 h5,
 h6 {
-  font-size: 1.2rem;
-  margin-top: 2em;
+    font-size: 1.2rem;
+    margin-top: 2em;
 }
 
 h1::before {
-  color: var(--maincolor);
-  content: "# ";
+    color: var(--maincolor);
+    content: "# ";
 }
 h2::before {
-  color: var(--maincolor);
-  content: "## ";
+    color: var(--maincolor);
+    content: "## ";
 }
 h3::before {
-  color: var(--maincolor);
-  content: "### ";
+    color: var(--maincolor);
+    content: "### ";
 }
 h4::before {
-  color: var(--maincolor);
-  content: "#### ";
+    color: var(--maincolor);
+    content: "#### ";
 }
 h5::before {
-  color: var(--maincolor);
-  content: "##### ";
+    color: var(--maincolor);
+    content: "##### ";
 }
 h6::before {
-  color: var(--maincolor);
-  content: "###### ";
+    color: var(--maincolor);
+    content: "###### ";
 }
 
 /* Footer */
 footer {
-  margin-top: 1em;
+    margin-top: 1em;
 }
 
 /* Common */
 .title h1 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 time {
-  color: grey;
+    color: grey;
 }
 
 /* Posts */
 article .title {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 /* Callout */
 .callout {
-  background: linear-gradient(to right, #4e4a85, #3b0a3b);
-  color: #fff;
-  padding: 1em;
-  border-radius: 2ch;
+    background: linear-gradient(to right, #4e4a85, #3b0a3b);
+    color: #fff;
+    padding: 1em;
+    border-radius: 2ch;
 }
 
 .callout p {
-  font-family: "IBM Plex Mono", monospace;
-  margin: 0;
+    font-family: "IBM Plex Mono", monospace;
+    margin: 0;
 }
 
 .callout a {
-  color: white;
-  border-bottom: 3px solid brown;
+    color: white;
+    border-bottom: 3px solid brown;
 }
 
 .callout a:hover {
-  background-color: #fff;
-  color: var(--callouctcolor);
+    background-color: #fff;
+    color: var(--callouctcolor);
 }
 
 .site-description {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .tags li::before {
-  content: "🏷 ";
+    content: "🏷 ";
 }
 .tags a {
-  border-bottom: 3px solid var(--maincolor);
+    border-bottom: 3px solid var(--maincolor);
 }
 .tags a:hover {
-  color: white;
-  background-color: var(--hovercolor);
+    color: white;
+    background-color: var(--hovercolor);
 }
 svg {
-  max-height: 15px;
+    max-height: 15px;
 }
 .soc:hover {
-  color: white;
+    color: var(--maincolor);
+    background: transparent;
 }
 .draft-label {
-  color: var(--bordercl);
-  text-decoration: none;
-  padding: 2px 4px;
-  border-radius: 4px;
-  margin-left: 6px;
-  background-color: #f9f2f4;
+    color: var(--bordercl);
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 6px;
+    background-color: #f9f2f4;
 }
 .highlight {
-  position: relative;
-  -webkit-overflow-scrolling: touch;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
 }
 .highlight pre code[class*="language-"] {
-  -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 .highlight pre code[class*="language-"]::before {
-  background: black;
-  border-radius: 0 0 0.25rem 0.25rem;
-  color: white;
-  font-size: 12px;
-  letter-spacing: 0.025rem;
-  padding: 0.1rem 0.5rem;
-  position: absolute;
-  right: 1rem;
-  text-align: right;
-  text-transform: uppercase;
-  top: 0;
+    background: black;
+    border-radius: 0 0 0.25rem 0.25rem;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.025rem;
+    padding: 0.1rem 0.5rem;
+    position: absolute;
+    right: 1rem;
+    text-align: right;
+    text-transform: uppercase;
+    top: 0;
 }
 
 .highlight pre code[class="language-javaScript"]::before,
 .highlight pre code[class="language-js"]::before {
-  content: "js";
-  background: #f7df1e;
-  color: black;
+    content: "js";
+    background: #f7df1e;
+    color: black;
 }
 .highlight pre code[class*="language-yml"]::before,
 .highlight pre code[class*="language-yaml"]::before {
-  content: "yaml";
-  background: #f71e6a;
-  color: white;
+    content: "yaml";
+    background: #f71e6a;
+    color: white;
 }
 .highlight pre code[class*="language-shell"]::before,
 .highlight pre code[class*="language-bash"]::before,
 .highlight pre code[class*="language-sh"]::before {
-  content: "shell";
-  background: green;
-  color: white;
+    content: "shell";
+    background: green;
+    color: white;
 }
 .highlight pre code[class*="language-json"]::before {
-  content: "json";
-  background: dodgerblue;
-  color: #000000;
+    content: "json";
+    background: dodgerblue;
+    color: #000000;
 }
 .highlight pre code[class*="language-python"]::before,
 .highlight pre code[class*="language-py"]::before {
-  content: "py";
-  background: blue;
-  color: yellow;
+    content: "py";
+    background: blue;
+    color: yellow;
 }
 .highlight pre code[class*="language-css"]::before {
-  content: "css";
-  background: cyan;
-  color: black;
+    content: "css";
+    background: cyan;
+    color: black;
 }
 .highlight pre code[class*="language-go"]::before {
-  content: "Go";
-  background: cyan;
-  color: royalblue;
+    content: "Go";
+    background: cyan;
+    color: royalblue;
 }
 .highlight pre code[class*="language-md"]::before,
 .highlight pre code[class*="language-md"]::before {
-  content: "Markdown";
-  background: royalblue;
-  color: whitesmoke;
+    content: "Markdown";
+    background: royalblue;
+    color: whitesmoke;
+}
+
+/* Collapsible section styling */
+details {
+    margin: 1.5em 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden;
+}
+
+details[open] {
+    border-color: var(--maincolor);
+}
+
+summary {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 1em 1.5em;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+summary:hover {
+    background: linear-gradient(135deg, #e9ecef, #dee2e6);
+    color: var(--maincolor);
+}
+
+summary::marker {
+    display: none;
+}
+
+summary::before {
+    transition: transform 0.3s ease;
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+details > *:not(summary) {
+    padding: 1.5em;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Dark mode styling for details */
+@media (prefers-color-scheme: dark) {
+    details {
+        border-color: #404040;
+    }
+
+    details[open] {
+        border-color: var(--darkMaincolor);
+    }
+
+    summary {
+        background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+        color: #e0e0e0;
+    }
+
+    summary:hover {
+        background: linear-gradient(135deg, #3a3a3a, #2a2a2a);
+        color: var(--darkMaincolor);
+    }
+}
+
+/* Footer styling improvements */
+footer {
+    margin-top: 3em;
+    padding: 2em 0 1em 0;
+    border-top: 2px solid var(--bordercl);
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.8;
+}
+
+footer hr {
+    display: none;
+}
+
+footer a {
+    color: var(--maincolor);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin: 0 0.3em;
+}
+
+footer a:hover {
+    color: var(--hovercolor);
+    text-decoration: underline;
+}
+
+footer .soc {
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0.4em;
+    border: none;
+    background: transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+footer .soc:hover {
+    background-color: rgba(241, 126, 58, 0.1);
+    color: var(--maincolor);
+    transform: translateY(-2px);
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+footer .soc svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Add proper spacing between footer elements */
+footer .soc + .soc::before {
+    content: "";
+    margin-right: 0;
+}
+
+/* Dark mode footer */
+@media (prefers-color-scheme: dark) {
+    footer {
+        color: #aaa;
+        border-top-color: #444;
+    }
+
+    footer a {
+        color: var(--darkMaincolor);
+    }
+
+    footer a:hover {
+        color: #fff;
+    }
+
+    footer .soc:hover {
+        background-color: rgba(80, 250, 123, 0.1);
+        color: var(--darkMaincolor);
+    }
+}
+
+/* Footer content organization */
+.footer-content {
+    margin-bottom: 1em;
+}
+
+.footer-info {
+    font-size: 0.85em;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.footer-info br {
+    margin: 0.5em 0;
 }

@@ -1,10 +1,15 @@
 <header>
-	<div class="main">
-		<a  style="color:white;border-bottom:none;font-size:1.5em;" href="{{ .Site.BaseURL }}" class="gradient-text">{{ .Site.Title }}</a>
-	</div>
-	<nav>
-		{{ range .Site.Menus.main }}
-		<a href="{{ .URL }}">{{ .Name }}</a> |
-		{{ end }}
-	</nav>
+    <div class="main">
+        <a
+            style="color: white; border-bottom: none; font-size: 1.5em"
+            href="{{ .Site.BaseURL }}"
+            class="gradient-text"
+            >{{ .Site.Title }}</a
+        >
+    </div>
+    <nav>
+        {{ range $index, $item := .Site.Menus.main }}
+        <a href="{{ $item.URL }}">{{ $item.Name }}</a>{{ if ne $index (sub (len
+        $.Site.Menus.main) 1) }} | {{ end }} {{ end }}
+    </nav>
 </header>

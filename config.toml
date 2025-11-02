@@ -9,6 +9,11 @@ enableEmoji = true
 pygmentscodefencesguesssyntax = true
 enableGitInfo = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 mode = "dark" # color-mode → light,dark or auto
 useCDN = true
@@ -24,7 +29,7 @@ weight = 3
 
 [[menu.main]]
 name = "Resume"
-url = "/resume.pdf"
+url = "/resume"
 weight = 3
 
 [[menu.main]]
@@ -47,3 +52,13 @@ url = "https://github.com/athul"
 name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/athulcajay/"
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/athul/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/athul-cyriac-ajay"
